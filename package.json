@@ -11,38 +11,35 @@
         "publish": "electron-forge publish",
         "lint": "eslint src"
     },
-    "keywords": ["google chat", "hangouts chat", "google hangouts chat", "new Hangouts Chat", "google hangouts", "hangouts v2"],
-    "author": "siwalik",
+    "keywords": [
+        "google chat",
+        "hangouts chat",
+        "google hangouts chat",
+        "new Hangouts Chat",
+        "google hangouts",
+        "hangouts v2"
+    ],
+    "author": {
+        "name": "siwalik",
+        "email": "hi@siwalik.in",
+        "url": "http://www.siwalik.in"
+    },
     "license": "MIT",
     "config": {
         "forge": {
             "make_targets": {
-                "win32": [
-                    "squirrel"
-                ],
                 "darwin": [
-                    "zip"
-                ],
-                "linux": [
-                    "deb",
-                    "rpm"
+                    "dmg"
                 ]
             },
             "electronPackagerConfig": {
-                "packageManager": "yarn"
+                "packageManager": "yarn",
+                "name": "Hangouts Chat",
+                "icon": "./assets/application.icns"
             },
-            "electronWinstallerConfig": {
-                "name": "googlechat"
-            },
-            "electronInstallerDebian": {},
-            "electronInstallerRedhat": {},
             "github_repository": {
-                "owner": "",
-                "name": ""
-            },
-            "windowsStoreConfig": {
-                "packageName": "",
-                "name": "googlechat"
+                "owner": "siwalik",
+                "name": "Google-Hangouts-Chat"
             }
         }
     },

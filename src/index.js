@@ -7,15 +7,17 @@ let mainWindow;
 const createWindow = () => {
   // Create the browser window.
   mainWindow = new BrowserWindow({
+    width: 1024,
+    height: 600,
     minWidth: 1024,
     minHeight: 600,
     resizable: true,
-    // titleBarStyle: 'hidden',
-    // fullscreen: true,
+    fullscreen: true,
   });
 
   // and load the index.html of the app.
   mainWindow.loadURL('https://chat.google.com');
+  // mainWindow.loadURL(`file://${__dirname}/index.html`);
 
   // Emitted when the window is closed.
   mainWindow.on('closed', () => {
