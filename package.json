@@ -27,6 +27,12 @@
     "license": "MIT",
     "config": {
         "forge": {
+            "github_repository": {
+                "owner": "siwalik",
+                "name": "Google-Hangouts-Chat",
+                "type": "git",
+                "url": "https://github.com/siwalikm/Google-Hangouts-Chat.git"
+            },
             "make_targets": {
                 "darwin": [
                     "dmg"
@@ -36,10 +42,6 @@
                 "packageManager": "yarn",
                 "name": "Hangouts Chat",
                 "icon": "./assets/application.icns"
-            },
-            "github_repository": {
-                "owner": "siwalik",
-                "name": "Google-Hangouts-Chat"
             }
         }
     },
