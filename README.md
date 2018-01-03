@@ -34,5 +34,4 @@ This desktop client is just a wrapper which starts a chromium instance locally a
 
 
 ## License
-[UNLICENSE][unlicense]
-[unlicense]: http://unlicense.org
+[UNLICENSE](http://unlicense.org)
