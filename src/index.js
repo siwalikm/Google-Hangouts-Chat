@@ -19,6 +19,17 @@ const createWindow = () => {
   mainWindow.loadURL('https://chat.google.com');
   // mainWindow.loadURL(`file://${__dirname}/index.html`);
 
+  // handling url on-clicks to open in default browser
+  var handleRedirect = (e, url) => {
+    if (url != mainWindow.webContents.getURL()) {
+      e.preventDefault()
+      require('electron').shell.openExternal(url)
+    }
+  };
+
+  mainWindow.webContents.on('will-navigate', handleRedirect);
+  mainWindow.webContents.on('new-window', handleRedirect);
+
   // Emitted when the window is closed.
   mainWindow.on('closed', () => {
     // Dereference the window object, usually you would store windows
