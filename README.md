@@ -7,14 +7,14 @@ Unofficial desktop app for Google's new [Hangout Chat App](https://gsuite.google
 
 ## Usage
 
->[Download the latest release!](https://github.com/siwalikm/Google-Hangouts-Chat/raw/0.2.0/out/make/Hangouts%20Chat-0.2.0.dmg)
+>[Download the latest release!](https://github.com/siwalikm/Google-Hangouts-Chat/raw/0.2.1/out/make/Hangouts%20Chat-0.2.1.dmg)
 
 ## Contribute
 Install global dependencies:
 ```sh
 npm install -g electron-forge
 ```
-Node version should be 7.2.1 to compile package correctly.
+Node version should be >= 7.2.1 to compile package correctly.
 
 Fork this repository, clone to your local device and install dependencies:
 

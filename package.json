@@ -1,7 +1,7 @@
 {
     "name": "google_hangouts_chat",
     "productName": "Google Hangouts Chat",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Unofficial desktop app for Google's new Hangouts Chat",
     "main": "src/index.js",
     "scripts": {
@@ -47,7 +47,7 @@
     },
     "dependencies": {
         "electron-compile": "^6.4.2",
-        "electron-default-menu": "1.0.1" 
+        "electron-default-menu": "1.0.1"
     },
     "devDependencies": {
         "babel-plugin-transform-async-to-generator": "^6.24.1",
