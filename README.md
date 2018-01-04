@@ -1,4 +1,4 @@
-# Google Hangouts Chat 
+# Google Hangouts Chat
 Unofficial desktop app for Google's new [Hangout Chat App](https://gsuite.google.com/campaigns/index__chateap.html) for people who find native apps more productive.
 
 > MacOS desktop app for [Google's Enterprise Chat App ~ Hangouts Chat](https://chat.google.com) packaged with [Electron Forge](https://electronforge.io/).
@@ -7,7 +7,7 @@ Unofficial desktop app for Google's new [Hangout Chat App](https://gsuite.google
 
 ## Usage
 
->[Download the latest release!](https://github.com/siwalikm/Google-Hangouts-Chat/raw/0.1.0/out/make/Hangouts%20Chat-0.1.0.dmg)
+>[Download the latest release!](https://github.com/siwalikm/Google-Hangouts-Chat/raw/0.1.0/out/make/Hangouts%20Chat-0.1.1.dmg)
 
 ## Contribute
 Install global dependencies:
@@ -30,7 +30,7 @@ electron-forge make [path]
 ```
 
 ## Disclaimer
-This desktop client is just a wrapper which starts a chromium instance locally and runs the actual web-app in it. All rights to the [Hangout Chat App](https://gsuite.google.com/campaigns/index__chateap.html) is reserved by Google and this desktop client no way accesses any of your data. 
+This desktop client is just a wrapper which starts a chromium instance locally and runs the actual web-app in it. All rights to the [Hangout Chat App](https://gsuite.google.com/campaigns/index__chateap.html) is reserved by Google and this desktop client no way accesses any of your data.
 
 
 ## License
