@@ -8,7 +8,7 @@ Unofficial desktop app for Google's new [Hangout Chat App](https://gsuite.google
 ## Usage
 
 >[Download the latest release!](https://github.com/siwalikm/Google-Hangouts-Chat/raw/0.2.1/out/make/Hangouts%20Chat-0.2.1.dmg)
-
+  
 ## Contribute
 Install global dependencies:
 ```sh
