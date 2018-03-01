@@ -1,3 +1,6 @@
+Note: this was just an experiement! Google already has a desktop app now, I recommend you to download the app from https://get.google.com/chat/! thanks
+
+
 # Google Hangouts Chat
 Unofficial desktop app for Google's new [Hangout Chat App](https://gsuite.google.com/campaigns/index__chateap.html) for people who find native apps more productive.
 
