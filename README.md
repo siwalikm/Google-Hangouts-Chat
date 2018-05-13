@@ -1,4 +1,4 @@
-## PS: This was an experimental desktop app, released before Google-Chat had a desktop application for MacOS. Google already has a desktop app now, so I recommend downloading the official app [from here](https://get.google.com/chat/)!
+## PS: This was an experimental desktop app released by me before Google-Chat had a desktop application for MacOS. Google already has a desktop app now, so I recommend downloading the official app [from here](https://get.google.com/chat/)!
 
 
 # Google Hangouts Chat
